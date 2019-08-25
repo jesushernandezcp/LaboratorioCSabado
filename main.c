@@ -1,10 +1,27 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+/*ACTIVIDAD #1*/
 
-int main(int argc, char *argv[]) {
-// este comentario es para identificar el branch Practica3
-// ESTE COMENTARIO ES UNA PRUEBA DE QUE ESTOY USANDO CORRECTAMENTE EL GIT
+float x;
+float fun1;
+
+
+
+int main() 
+{
+do
+{
+printf("ASIGNE UN VALOR A LA X: ");
+scanf("%f",&x);
+fun1=((x-1)/4)-((x-5)/36);
+
+printf("\n\t\t\t EL VALOR DE LA FUNCION 1 (x-1)/4 - (x-5)/36 ES IGUAL A = %.2f \n",fun1);
+}
+while (x<10);
+
+
+system("PAUSE");
+
 	return 0;
 }
