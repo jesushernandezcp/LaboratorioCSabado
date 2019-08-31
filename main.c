@@ -17,7 +17,7 @@ int a,b,c;
 
 int main()
 {
-/*
+
 printf("\t\t ACTIVIDAD 1\n\n");
 //SOLICITUD DE CAPTURA DE VALOR//
 printf("CAPTURE UN NUMERO: ");
@@ -36,7 +36,7 @@ else
 
 printf("EL NUMERO %d ES MAYOR\n",b,a);
 
-*/
+
 //ACTIVIDAD 2//
 printf("\t\t ACTIVIDAD 2");
 
@@ -108,7 +108,7 @@ printf("SI CUMPLE\n");
 else
 printf("NO CUMPLE\n");
 
-/*
+
 //ACTIVIDAD 3//
 
 printf("\t\t ACTIVIDAD 3");
@@ -184,7 +184,7 @@ if((a>3)&&(b>3)&&(c<3))
 printf("SI CUMPLE\n");
 else
 printf("NO CUMPLE\n");
-*/
+
 
 
 
